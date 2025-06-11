@@ -20,7 +20,7 @@ A simple command-line interface (CLI) to-do list manager written in Python. It a
 2. Clone this repository:
 
    ```bash
-   git clone https://github.com/lukaszzielinski2003/cli-todolist
+   git clone https://github.com/lukaszzielinski2003/cli_todolist
    ```
 
 3. Navigate to the project folder:
