@@ -5,56 +5,47 @@ A simple command-line interface (CLI) to-do list manager written in Python. It a
 ## Features
 
 - Add tasks
+
 - Remove tasks
+
 - View all tasks
-- Save and load tasks from `tasks.json`
 
-## Requirements
+- Save and load tasks from tasks.json
 
-- Python 3.6+
-- (Optional) `pytest` for running tests
+## How to run
 
-## Installation
+1. Clone the repo or download the files.
 
-1. Make sure you have Python 3.6+ installed.
-2. Clone this repository:
+2. Make sure you have Python 3 installed.
 
-   ```bash
-   git clone https://github.com/lukaszzielinski2003/cli_todolist
-   ```
-
-3. Navigate to the project folder:
-
-   ```bash
-   cd cli_todolist
-   ```
-
-4. Run the program:
-
-   ```bash
-   python main.py
-   ```
-
-## Usage
-
-Run the main script to start the CLI:
+3. Run the game:
 
 ```bash
 python main.py
 ```
 
-Follow on-screen prompts to add, remove, or view tasks. Tasks are stored in `tasks.json` in the project directory.
+# Usage
 
-## Running Tests
+- Follow on-screen prompts to add, remove, or view tasks. Tasks are stored in tasks.json in the project directory.
 
-If you have `pytest` installed, run:
+- To exit, choose option 4 or press Ctrl+C.
 
-```bash
-pytest
+## Sample
+
+```
+==============
+|  ToDoList  |
+==============
+| 1. Show    |
+| 2. Add     |
+| 3. Delete  |
+| 4. Exit    |
+==============
+Select operation: 2
+Enter your task: gym
+Task added successfully
 ```
 
-## License
+# License
 
-This project is released under the MIT License.
-
-### Made by Łukasz Zieliński
+This project is licensed under the MIT License. See the LICENSE file for details.
