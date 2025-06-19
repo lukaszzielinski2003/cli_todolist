@@ -18,7 +18,7 @@ A simple command-line interface (CLI) to-do list manager written in Python. It a
 
 2. Make sure you have Python 3 installed.
 
-3. Run the game:
+3. Run the program:
 
 ```bash
 python main.py
